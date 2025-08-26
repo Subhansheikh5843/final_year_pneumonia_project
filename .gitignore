@@ -1,0 +1,60 @@
+# 1) React frontend dependencies
+
+# Python virtualenv
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Build / temporary
+/dist
+/build
+*.log
+*.sqlite3
+
+# Django stuff
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+/media
+/staticfiles
+
+# Keras / ML model files
+djangoauthapi1/AI_models/
+**/AI_models/
+*.h5
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# 2) Django backend virtualenv and bytecode
+venv/                       
+**/__pycache__/                    
+*.py[cod] 
+
+djangoauthapi1/AI_models/
+
+# 3) Django media uploads
+djangoauthapi1/djangoauthapi1/media/             
+
+# 4) Django local database
+djangoauthapi1/djangoauthapi1/db.sqlite3                
+
+# 5) Env files and IDE settings
+djangoauthapi1/djangoauthapi1/.env                                
+*.env                              
+*.sublime-workspace                 
+.idea/                             
+.vscode/                           
+
+# 6) System files
+.DS_Store                           
+Thumbs.db                           
