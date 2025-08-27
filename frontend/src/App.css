@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 80px;
+  color: #ffffff;
+  width: 100vw;
+  background-color: #000;
+}
+.mar{
+  margin-right: 50px;
+}
+
