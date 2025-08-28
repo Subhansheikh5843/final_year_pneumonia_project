@@ -5,8 +5,6 @@ import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 
-
-# Load environment variable
 load_dotenv()
 
 llm = ChatGoogleGenerativeAI(

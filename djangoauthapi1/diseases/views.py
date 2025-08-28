@@ -34,12 +34,9 @@ from .helpers.constants import (
 )
 from .helpers.utils import preprocess_image
 
-
-# initialize environment
 load_dotenv()
 
 logger = logging.getLogger("your_app.views")
-
 
 class PneumoniaView(APIView):
     """
@@ -182,10 +179,9 @@ class UserPneumoniaRecordsView(APIView):
         return Response(serializer.data)
     
 
-# Define the workflow
+
 workflow = StateGraph(state_schema=MessagesState)
 
-# Node function
 def call_model(state: MessagesState):
     """
     Call the LLM with accumulated messages.
