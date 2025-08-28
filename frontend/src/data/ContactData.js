@@ -3,52 +3,6 @@ import doc2 from "../assets/doc2.jpeg";
 import doc3 from "../assets/doc3.jpeg";
 import doc4 from "../assets/doc4_lady.jpeg";
 
-// const doctors = [
-//   {
-//     name: "Dr. Ahsan Ali",
-//     specialty: "Pneumonia Specialist",
-//     hospital: "Mayo Hospital, Lahore",
-//     address: "Block A, Mayo Hospital, Ferozepur Road, Lahore",
-//     phone: "0300-1111111",
-//     timing: "Mon-Fri: 9:00 AM - 5:00 PM",
-//     image: doc1
-//   },
-
-// ];
-
-// const doctors = [
-//   {
-//     name: "Dr. Asif Hanif",
-//     specialty: "Pulmonologist (Pneumonia Specialist)",
-//     hospital: "Omar Hospital & Cardiac Centre / Mayo Hospital, Lahore",
-//     address: "Jail Road / Mayo Hospital, Lahore",
-//     phone: "04238900939",
-//     timing: "Mon–Sat: 3:00 PM – 5:30 PM",
-//     image: doc1,
-//     appointmentLink:
-//       "https://www.oladoc.com/pakistan/lahore/dr/pulmonologist/asif-hanif/14841",
-//   },
-//   {
-//     name: "Prof. Dr. Saulat Ullah Khan",
-//     specialty: "Senior Pulmonologist",
-//     hospital: "Mayo Hospital / Rasheed Hospital (DHA), Lahore",
-//     address: "Mayo Hospital & BMC, Lahore",
-//     phone: "04238900939",
-//     timing: "Mon–Sat: 4:00 PM – 7:00 PM & 8:00 PM – 9:30 PM",
-//     image: doc2,
-//     appointmentLink: "",
-//   },
-//   {
-//     name: "Prof. Saleem Uz Zaman Adhami",
-//     specialty: "Head of Pulmonology",
-//     hospital: "Shalamar Hospital, Lahore",
-//     address: "Shalamar Hospital, Lahore",
-//     phone: null,
-//     timing: "Check hospital portal",
-//     image: doc3,
-//     appointmentLink: "https://shalamarhospital.org.pk/pulmonology/",
-//   },
-// ];
 const doctors = [
   {
     name: "Dr. Asif Hanif",
