@@ -1,0 +1,53 @@
+/* .footer {
+  margin-top: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: #12ac8e;
+  color: var(--white);
+  padding-top: 3rem;
+
+}
+
+.footer .footer__bar__content p {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+  }
+} */
+
+/* Footer.css */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;               /* fixed height */
+  background: #12ac8e;
+  color: #fff;
+  display: flex;              /* center content */
+  align-items: center;        /* vertically center text */
+  justify-content: center;    /* horizontally center text */
+  z-index: 1000;              /* stay above other content */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive tweak, if you want to reduce padding on small screens */
+@media (max-width: 600px) {
+  .footer {
+    height: 50px;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
