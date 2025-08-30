@@ -1,0 +1,90 @@
+.pneumonia-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.pneumonia-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pneumonia-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.file-input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.upload-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clear-button {
+  padding: 0.5rem 1rem;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.status-message {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.section-container {
+  margin-top: 2rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-image,
+.segmented-image {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.details-text {
+  margin-top: 1rem;
+}
+
+.bottom-button-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.prediction-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
